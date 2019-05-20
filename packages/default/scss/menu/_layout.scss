@@ -24,10 +24,6 @@ $image-spacing: 8px !default;
             user-select: none;
             flex-shrink: 0;
             outline: 0;
-
-            .k-icon {
-                margin-right: $icon-spacing;
-            }
         }
 
         // Link
@@ -120,6 +116,14 @@ $image-spacing: 8px !default;
         .k-item {
             display: block;
             border-color: inherit;
+
+            .k-icon {
+                margin-right: $icon-spacing;
+
+                &.k-menu-expand-arrow {
+                    margin-right: 0;
+                }
+            }
         }
 
         .k-item > .k-link {
@@ -260,15 +264,19 @@ $image-spacing: 8px !default;
                 padding-right: $list-item-padding-x;
                 padding-left: add-two( (2 * $list-item-padding-x), $icon-size);
             }
+
+            .k-item .k-icon {
+                margin-left: $icon-spacing;
+                margin-right: 0;
+
+                &.k-menu-expand-arrow {
+                    margin-left: 0;
+                }
+            }
         }
 
         .k-menu-vertical .k-link {
             padding-right: add-two($icon-size, $icon-spacing); // Save space in case there is an expand icon
-        }
-
-        .k-menu .k-item .k-icon {
-            margin-left: $icon-spacing;
-            margin-right: 0;
         }
     }
 
