@@ -145,9 +145,16 @@
 
         .k-edit-form-container { width: 390px; }
 
-        .k-edit-label { width: auto; }
-        .k-edit-field { 
-            width: auto; 
+        .k-edit-label {
+            width: auto;
+            margin-bottom: 0.5rem;
+            label {
+                margin-bottom: 0;
+            }
+        }
+
+        .k-edit-field {
+            width: auto;
             align-items: center;
         }
 
