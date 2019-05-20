@@ -24,6 +24,10 @@ $image-spacing: 8px !default;
             user-select: none;
             flex-shrink: 0;
             outline: 0;
+
+            .k-icon {
+                margin-right: $icon-spacing;
+            }
         }
 
         // Link
@@ -260,6 +264,11 @@ $image-spacing: 8px !default;
 
         .k-menu-vertical .k-link {
             padding-right: add-two($icon-size, $icon-spacing); // Save space in case there is an expand icon
+        }
+
+        .k-menu .k-item .k-icon {
+            margin-left: $icon-spacing;
+            margin-right: 0;
         }
     }
 
