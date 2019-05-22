@@ -7,7 +7,12 @@ position: 1
 
 # Material Theme Overview
 
-The Kendo UI Material theme is available through the @progress/kendo-theme-material NPM module.
+{% platform_content angular %}
+The Kendo UI for Angular Material theme is part of the Kendo UI for Angular library of UI components. It is distributed through NPM under the [kendo-theme-material package](https://www.npmjs.com/package/@progress/kendo-theme-material).
+{% endplatform_content %}
+{% platform_content react %}
+The KendoReact Material theme is part of the KendoReact library of React UI components. It is distributed through NPM under the [kendo-theme-material package](https://www.npmjs.com/package/@progress/kendo-theme-material).
+{% endplatform_content %}
 
 ## Installation
 

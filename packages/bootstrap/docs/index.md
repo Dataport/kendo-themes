@@ -7,7 +7,12 @@ position: 1
 
 # Bootstrap Theme Overview
 
-The Kendo UI Bootstrap theme is available through the @progress/kendo-theme-bootstrap NPM module.
+{% platform_content angular %}
+The Kendo UI for Angular Bootstrap theme is part of the Kendo UI for Angular library of UI components. It is distributed through NPM under the [kendo-theme-bootstrap package](https://www.npmjs.com/package/@progress/kendo-theme-bootstrap).
+{% endplatform_content %}
+{% platform_content react %}
+The KendoReact Bootstrap theme is part of the KendoReact library of React UI components. It is distributed through NPM under the [kendo-theme-bootstrap package](https://www.npmjs.com/package/@progress/kendo-theme-bootstrap).
+{% endplatform_content %}
 
 ## Installation
 
